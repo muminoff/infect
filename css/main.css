@@ -1,0 +1,75 @@
+/*
+ * Bootstrap Documentation
+ * Special styles for presenting Bootstrap's documentation and code examples.
+ *
+ * Table of contents:
+ *
+ * Scaffolding
+ * Main navigation
+ * Footer
+ * Social buttons
+ * Homepage
+ * Page headers
+ * Old docs callout
+ * Ads
+ * Side navigation
+ * Docs sections
+ * Callouts
+ * Grid styles
+ * Examples
+ * Code snippets (highlight)
+ * Responsive tests
+ * Glyphicons
+ * Customizer
+ * Miscellaneous
+ */
+
+
+/*
+ * Scaffolding
+ *
+ * Update the basics of our documents to prep for docs content.
+ */
+
+body {
+  padding-top: 50px; /* Account for fixed navbar */
+}
+
+
+
+/*
+ * Glyphicons
+ *
+ * Special styles for displaying the icons and their classes in the docs.
+ */
+
+.ifs-icons {
+  padding-left: 0;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  list-style: none;
+  overflow: hidden;
+}
+.ifs-icons li {
+  float: left;
+  width: 15%;
+  height: 15%;
+  padding: 10px;
+  margin: 0 -1px -1px 0;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  border: none;
+}
+.ifs-icons li:hover {
+  /*background-color: rgba(86,61,124,.1);*/
+  background-color: rgba(236, 240, 241,1.0);
+}
+
+@media (min-width: 768px) {
+  .ifs-icons li {
+    width: 12.5%;
+  }
+}
+
+
